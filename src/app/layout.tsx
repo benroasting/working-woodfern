@@ -1,12 +1,15 @@
-import "../styles/globals.css";
+//components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-// import { Libre_Baskerville } from "@next/font/google";
 
-// const libre = Libre_Baskerville({
-//   weight: "400",
-//   subsets: ["latin"],
-// });
+//styles
+import "../styles/globals.css";
+import { Libre_Baskerville } from "next/font/google";
+
+const libre = Libre_Baskerville({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: 'Woodfern Floral Design',
